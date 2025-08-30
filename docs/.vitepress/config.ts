@@ -16,7 +16,6 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '知识点', link: '/tech/' },
       { text: 'AI', link: '/ai/' },
       { text: 'API 参考', link: '/api/' },
       {
@@ -30,12 +29,6 @@ export default defineConfig({
     
     // 侧边栏
     sidebar: {
-      '/tech/': [
-        {
-          text: '管理体系',
-          link: '/tech/management-systems/'
-        }
-      ],
       '/ai/': [
         {
           text: 'AI知识点',
