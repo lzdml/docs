@@ -1,0 +1,33 @@
+{
+  "name": "vitepress-docs",
+  "version": "1.0.0",
+  "description": "VitePress documentation site with GitHub Pages deployment",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.0.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "serve": "vitepress serve docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vue": "^3.4.0",
+    "vitepress": "^1.0.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/web-bluetooth"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
