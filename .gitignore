@@ -34,7 +34,6 @@ docs/.vitepress/cache/
 # Package manager files
 # package-lock.json  # 注释掉，GitHub Actions需要此文件
 yarn.lock
-pnpm-lock.yaml
 .pnpm-store/
 
 # Editor directories and files
