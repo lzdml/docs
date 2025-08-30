@@ -12,7 +12,6 @@ node_modules/
 jspm_packages/
 
 # Build outputs
-dist/
 dist-ssr/
 build/
 out/
