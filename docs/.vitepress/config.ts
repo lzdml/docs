@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'VitePress 文档站点',
   description: '基于 VitePress 构建的现代化文档站点',
   lang: 'zh-CN',
-  base: '/sdl-docs/', // 如果部署到 GitHub Pages 子路径，需要修改为 '/repository-name/'
+  base: '/docs/', // 如果部署到 GitHub Pages 子路径，需要修改为 '/repository-name/'
   
   // 主题配置
   themeConfig: {
