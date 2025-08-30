@@ -1,4 +1,4 @@
-name: Deploy VitePress site to Pages
+name: 部署 SDL 文档站点
 
 on:
   # 在推送到 main 分支时触发
